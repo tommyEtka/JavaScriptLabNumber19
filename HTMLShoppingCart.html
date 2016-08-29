@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>Tommy's Closet</title>
+
+    </head>
+
+    <body>
+      <script src="shoppingCart.js" defer> </script>
+      <p> Welcome to you're a happy shopper! </p>
+        <p> Please select as many items you would like to purchase! </p>
+
+
+      <br>
+      <br>
+
+        <form>
+        <p id = "Jeans"> Jeans </p>
+        <button onclick="cart[0].name">Add Item</button>
+        </form>
+
+        <form>
+        <p id = "Blouse"> Blouse </p>
+        <button onclick="addItemstoCart(blouse)">Add Item</button>
+        </form>
+
+        <form>
+        <p id = "Shoes"> Shoes </p>
+        <button onclick="addItemstoCart(name = shoes)">Add Item</button>
+        </form>
+
+<br>
+
+    <p> Shopping Cart: </p>
+    <form>
+    <p id = "Total"> Total </p>
+    <button onclick="total()">Checkout</button>
+    </form>
+
+
+
+
+    </body>
+
+  </html>
